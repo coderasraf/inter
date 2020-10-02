@@ -1,0 +1,1307 @@
+/*========start of header top css style =============*/
+.header-top {
+    background: var(--light-oragne);
+    padding: 3px 0;
+    text-align: center;
+}
+.header-top-inner p {
+    font-size: 16px;
+}
+.middle-header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.right-search-cart ul {
+    display: flex;
+}
+.select-icon select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    padding: 5px 10px;
+    color: #6A6A6A;
+    font-size: 12px;
+    font-family: Apercu;
+    z-index: 9;
+}
+.select-icon {
+    position: relative;
+    width: 82px;
+}
+
+.select-icon-img {
+    cursor:pointer;
+    position: absolute;
+    right: 0;
+    top: 9px;
+    right: 22%;
+}
+
+.right-search-cart ul li {
+    margin: 0 13px;
+}
+
+.right-search-cart ul li:last-child {
+    margin: 0;
+}
+.middle-header-area {
+    padding: 30px 0;
+}
+
+.logo-area {
+    margin-left: 150px;
+}
+/*========start of header top css style =============*/
+
+/*========start of header bottom menu css style =============*/
+.header-bottom-area {
+    padding: 20px 0;
+    padding-top: 0;
+}
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-item li {
+    margin: 0 26px;
+    position: relative;
+}
+.menu-item li a {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-decoration: none;
+}
+/*========End of header bottom menu css style =============*/
+
+/*========Start of welcome-bg css style =============*/
+.welcome-area-inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.welcome-area {
+    background: #eee;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.welcome-area-1{
+    background-image: url("../img/welcome-bg.webp");
+    height: 692px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+}
+.header-bottom-area {
+    padding: 20px 0;
+    padding-top: 0;
+}
+
+.welcome-area-main-conent h1 {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.welcome-area-main-conent p {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btns {
+    padding: 10px 30px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
+/*========End of welcome-bg css style =============*/
+
+/*========start of feature-welcome-bottom css style =============*/
+.feature-welcome-bottom h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.feature-welcome-bottom p {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Apercu;
+}
+.welcome-bottom-content-area {
+    padding: 50px 0;
+}
+.feature-welcome-bottom .btns {
+    background: none;
+    padding: 0;
+    margin-top: 21px;
+    display: inline-block;
+    text-decoration: underline;
+}
+/*========End of feature-welcome-bottom css style =============*/
+
+/*========Start of carousel css style ==========*/
+.product-carousel-area{
+    padding: 50px 0;
+    padding-bottom: 60px;
+}
+.single-product-carousel-box {
+    height: 501px;
+    background: #ddd;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.carousel-bg-1{
+    background-image: url("../img/feature-2.webp");
+}
+.carousel-bg-2{
+    background-image: url("../img/carousel-bg-1.webp");
+    background-position: center;
+}
+.carousel-bg-3{
+    background-image: url("../img/carousel-bg-2.webp");
+}
+.carousel-bg-4{
+    background-image: url("../img/carousel-bg-3.webp");
+}
+.carousel-bg-5{
+    background-image: url("../img/feature-2.webp");
+}
+.product-carousel-area .owl-carousel .owl-stage-outer{
+    overflow: inherit;
+}
+.product-carousel-area .owl-prev {
+    top: 50%;
+    position: absolute;
+    left: -7%;
+}
+.product-carousel-area .owl-next {
+    top: 50%;
+    position: absolute;
+    right: -7%;
+}
+/*========End of carousel css style =============*/
+
+/* ============= Start of orange callto area ============= */
+.orange-bg-area {
+    background: rgba(255, 182, 146, 0.2);
+    padding: 80px 0;
+}
+.call-right-bg {
+    height: 500px;
+    background: #ddd;
+    background-image: url("../img/call-bg-1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 677px;
+    width: 785px;
+    margin-left: -200px;
+}
+.call-orange-area-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+    justify-content: center;
+    align-items: center;
+}
+.bottom-content h3 {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    margin-top:20px
+}
+.left-call-area h1 {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.left-call-area p {
+    font-family: var(--para-font);
+    font-style: normal;
+    font-weight: var(--para-weight);
+    font-size: var(--para-size);
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.liquid-btn {
+    background: #000;
+    color: #fff;
+}
+/* ============= End of orange callto area ===============*/
+
+/*============== start of inspiration section css ============= */
+.bottom-content-inspiration h3 {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+.some-inspiration-section {
+    padding: 80px 0;
+}
+
+.inspiration-bg-single {
+    height: 314px;
+    margin-bottom: 20px;
+    background: #ddd;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.inspiration-bg-1{
+    background-image: url("../img/necles.webp");
+}
+.p-price {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 10px;
+    color: #000000b0;
+}
+.inspiration-main-inner .col-md-3,.inspiration-main-inner .col-md-4 {
+    margin-bottom: 30px;
+}
+.section-title h3 {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+/* =============End of inspiration section css =============== */
+
+/*============== start of giving and community css ============  */
+.givving-main-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+}
+.giving-left-inner-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+}
+.giving-left-area h3 {
+    text-align: center;
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+/* identical to box height */
+    color: #000000;
+    margin-bottom: 30px;
+}
+.giving-left-bg {
+    background: #ddd;
+    height: 477px;
+    background-image: url("../img/feature-1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.giving-right-bg {
+    background: #ddd;
+    height: 477px;
+    background-image: url("../img/gallery-img-1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gray-area-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 14px;
+    padding-bottom: 5px;
+    background: #eee;
+}
+.left-gray {
+    background: #E7F1F1;
+}
+
+.gray-area-content .btns {
+    margin-bottom: 27px;
+    margin-top: 18px;
+    background: no-repeat;
+    padding: 0;
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 38px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.gray-area-content h4 {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+.gray-area-content p {
+    font-family: var(--para-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.right-gray {
+    background: #F7F7F7;
+}
+/*================ End of giving and community css =================== */
+
+/*================Start of big-feature-bg css =================  */
+.big-feature-area {
+    padding: 120px 0;
+}
+
+.big-feataure-bg {
+    background: #ddd;
+    height: 764px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+.big-feataure-bg-1{
+    background-image: url("../img/feature-1.webp");
+}
+.big-feataure-bg-2{
+    background-image: url("../img/feature-2.webp");
+}
+.big-feataure-bottom h3 {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.call-white-area-inner {
+    align-items: center;
+}
+.call-white-area-inner .left-call-area {
+    margin-left: 130px;
+}
+.bottom-orange {
+    background: #fff;
+}
+/*=============== End of big-feature-bg css ===================  */
+
+/*=============== Start Video featured area css ===================*/
+
+.video-featured-area-bg {
+    height: 700px;
+    background: #eee;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+    background-image: url("../img/vide-bg-1.webp");
+}
+.video-featured-area-bottom-content {
+    margin-bottom: 200px;
+}
+
+.bottom-main-content-video h3 {font-family: Apercu;font-style: normal;font-weight: 500;font-size: 18px;line-height: 22px;color: #000000;margin-bottom: 19px;margin-top: 33px;}
+
+.bottom-main-content-video p {
+    font-family: var(--para-font);
+    font-style: normal;
+    font-weight: var(--para-weight);
+    font-size: var(--para-size);
+    line-height: 32px;
+/* or 145% */
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.bottom-main-content-video .btns {
+    background: no-repeat;
+    padding: 0;
+    text-decoration: underline;
+}
+/*=============== End Video featured area css ===================*/
+
+/* ============== Start of follow instagram css ================= */
+.follow-instagram-section{
+    margin-bottom: 100px;
+}
+.follow-instagram-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px, 1fr));
+    grid-gap: 20px;
+}
+.single-instagram-box {
+    height: 322px;
+    background: #ddd;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    padding-left: 22px;
+    max-height: 322px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.Instagram-bg-1{
+    background-image: url("../img/pro-img-1.webp");
+}
+.Instagram-bg-2{
+    background-image: url("../img/pro-img-4.webp");
+}
+.Instagram-bg-3{
+    background-image: url("../img/pro-img-2.webp");
+}
+.Instagram-bg-4{
+    background-image: url("../img/pro-img-3.webp");
+}
+.Instagram-bg-5{
+    background-image: url("../img/pro-img-5.webp");
+}
+.Instagram-bg-6{
+    background-image: url("../img/pro-img-6.webp");
+}
+.Instagram-bg-7{
+    background-image: url("../img/pro-img-7.webp");
+}
+.meta-desc {
+    margin-top: 82px;
+}
+.follow-insta-hover h4 {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.meta-desc a {
+    font-family: var(--para-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    margin-left: 4px;
+}
+.follow-insta-hover {
+    transition: .3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9;
+    position: relative;
+}
+
+.single-instagram-box:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    content: "";
+    background: #000;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in-out;
+}
+
+.single-instagram-box:hover:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.single-instagram-box:hover .follow-insta-hover {
+    opacity: 1;
+    visibility: visible;
+}
+/*===============End of follow instagram css ===================  */
+
+/* ===============Start of how it work css ================= */
+.express-inner-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.express-area {
+    padding: 80px 0;
+}
+.express-single-box{
+    margin-bottom: 30px;
+}
+.express-single-box h4 {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+}
+.top-express-img {
+    height: 69px;
+}
+/* =============== End of how it works css ================== */
+
+/*================ start of footer css =================  */
+footer.footer-area {
+    background: #000;
+    color: #fff;
+    padding: 50px 0;
+    padding-bottom: 11px;
+}
+.footer-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+}
+.footer-left-inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 38px;
+}
+
+.footer-single-menu h3 {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.footer-single-menu a {
+    color: #ffffffe3;
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+}
+.social-menu ul {
+    display: flex;
+}
+.social-menu ul li {
+    margin: 0 12px;
+}
+.social-menu ul li:first-child {
+    margin-left: 0;
+}
+.footer-right-area {
+    margin-left: 100px;
+}
+
+.footer-right-area p {
+    font-family: var(--para-font);
+    font-style: normal;
+    font-weight: var(--para-weight);
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 27px;
+}
+
+.footer-right-area input {
+    width: 100%;
+    padding: 10px;
+    background: no-repeat;
+    border: 2px solid #FFFFFF;
+    position: relative;
+    z-index: 1;
+    outline: none;
+    border-radius: 0 !important;
+    color: #fff;
+}
+
+.footer-right-area input::placeholder {
+    color: #fff;
+    opacity: .8;
+}
+.footer-bottom-inner p {
+    color: #fff;
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 50px;
+    opacity: .9;
+}
+
+.footer-bottom {
+    margin-top: 28px;
+}
+img.absolute-img {
+    position: absolute;
+    right: 10px;
+    top: 32%;
+}
+
+.footer-right-area .form-group {
+    position: relative;
+}
+/*================ End of footer css =================  */
+
+
+/*===============Start of listing page css ==========*/
+
+
+.listing-page .bottom-content-inspiration h3 {
+    text-transform: capitalize;
+}
+
+section.liquid-welcome-area {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 629px;
+}
+
+section.liquid-welcome-area:after {
+    position: absolute;
+    right: 0;
+    top: 16px;
+    width: 47%;
+    content: "";
+    background: #333;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/overlay-bg.webp");
+    z-index: -1;
+}
+
+.liquid-welcome-area .liquid-welcome-main-text h1 {font-family: Apercu;font-style: normal;font-weight: 500;font-size: 45px;line-height: 55px;letter-spacing: 1px;color: #000000;margin-bottom: 22px;}
+
+.liquid-welcome-area .liquid-welcome-main-text p {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+/* or 145% */
+    color: #000;
+}
+.listing-page {
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+.filter-form {
+    position: absolute;
+    right: 109px;
+    z-index: 9;
+    top: 26px;
+}
+.pagination-area-inner {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pagination-area-inner li {
+    margin: 0 10px;
+}
+
+.pagination-area-inner li a {
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+/*============End of listing page css cod ==========*/
+
+/* =========== Start of product-details page css =====  */
+.product-meta-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 98px;
+}
+.product-meta-title a {
+    color: #000;
+    text-decoration: underline;
+}
+h3.product-main-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.details-main-price {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6A6967;
+    margin-bottom: 20px;
+}
+.product-details-welcome {
+    margin-top: 50px;
+}
+
+.details-select-icon.select-icon select {
+    width: 100%;
+    border: 1px solid #000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding: 13px;
+}
+
+.details-select-icon.select-icon {
+    position: relative;
+    width: 213px;
+}
+.form-group.select-number-icon input {
+    width: 213px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.details-cart-btn {
+    background: #000;
+    width: 350px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    padding: 18px;
+}
+.btn-container button {
+    margin: 0 16px;
+    margin-top: 50px;
+    font-size: 16px;
+    outline: none;
+}
+.btn-container {
+    display: flex;
+}
+
+.about-content p {
+    font-family: var(--para-font);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000a6;
+    margin-bottom: 20px;
+}
+ul.top-carna-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+ul.top-carna-logo img {
+    margin-right: 17px;
+}
+
+ul.top-carna-logo li a {
+    color: #000;
+}
+
+ul.bottom-policy-img li img {
+}
+
+.bottom-policy-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 74px;
+}
+
+ul.bottom-policy-img li img {
+    margin-right: 40px;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 14px;
+}
+
+ul.top-carna-logo:before {
+    position: absolute;
+    top: -18px;
+    width: 90px;
+    height: 2px;
+    content: "";
+    border: 1px solid #FFB692;
+}
+/* end of details-welcome-css */
+/* start of pairing section css */
+.pairing-inspiration-section {
+    background: rgba(255, 182, 146, 0.2);
+    padding: 80px 0;
+}
+
+h3.together-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+
+.left-together p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.left-together-middle p {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.together-price p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+ul.bough-together-main li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+    position: relative;
+}
+
+.togherter-btn {
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 13px 60px;
+}
+
+.single-box-pairing h4 {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+/* identical to box height */
+    color: #000000;
+    margin-top: 10px;
+}
+
+.left-together-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-together-middle img {
+    margin-left: 10px;
+}
+
+ul.bough-together-main li:before {
+    position: absolute;
+    content: "";
+    background: #000;
+    height: 6px;
+    width: 6px;
+    top: 47%;
+    left: -18px;
+}
+.separator {
+    height: 9px;
+    background:  #D9D9D9;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.separator:before {
+    position: absolute;
+    left: 153px;
+    top: 0;
+    width: 140px;
+    background: #333;
+    content: "";
+    height: 100%;
+}
+/* end of pairing section css */
+
+/*============ End of product-details page css ============== */
+
+/*responsive showhide element*/
+.show-mini{
+    display: none;
+}
+.bars{
+    display: none;
+}
+.block-mini-search{
+    display: none;
+}
+.hide-menu{
+    display: none;
+}
+
+/*Start of shop dropdown menu css*/
+.dropdown-menus {
+    display: flex;
+    background: #fff;
+    padding: 50px 80px;
+    position: absolute;
+    z-index: 9;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    width: 100vw;
+    top: 182%;
+    border-top: 1px solid #D8D8D8;
+    left: -292px;
+    transition: .4s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dropdown-menu-title {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 13px;
+    text-transform: capitalize;
+}
+
+.left-inner-drop p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: var(--para-font);
+}
+
+.left-inner-drop {
+    flex: 1;
+    max-width: 300px;
+    margin-right: 83px;
+}
+
+.middle-inner-dorp {
+    flex: 1;
+    max-width: 200px;
+}
+
+.right-inner-drop {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.middle-inner-dorp h3, .right-inner-drop h3 {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+.middle-inner-dorp ul {
+    /* margin: 0; */
+    padding: 0;
+}
+
+ul.drop-inner li {
+    margin: 0;
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 201.9%;
+    color: #000000;
+}
+ul.menu-item > li:hover .dropdown-menus {
+    opacity: 1;
+    visibility: visible;
+}
+/* End of shop dropdown menu css */
+
+
+
+
+
+
+
+
+
+
+/*================ Start Responsive css code =============*/
+@media(max-width: 991px){
+    .dropdown-menus{
+        left: -191px;
+    }
+}
+/*iPad Mini*/
+@media(max-width: 768px){
+    .menu-item {
+    display: block;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 23.3%;
+    width: 326px;
+    padding: 11px;
+    transition: .4s ease-in-out;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    }
+    .menu-active{
+        height: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+    .hide-menu{
+        display: block;
+        cursor: pointer;
+        padding: 10px;
+        background: #fff;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        line-height: 29px;
+    }
+    .menu-item li {
+    line-height: 35px;
+    }
+    .header-bottom-area {
+        padding: 15px 0;
+        border-bottom: 1px solid #EEEEEE;
+        border-top: 1px solid #EEEEEE;
+        margin-bottom: 10px;
+    }
+    .bars{
+        display: block;
+    }
+    .show-mini{
+        display: block;
+    }
+    .hide-desktop{
+        display: none !important;
+    }
+    .hide-mini-search{
+        display: none;
+    }
+    .block-mini-search{
+        display: block;
+    }
+    .logo-area{
+        margin-left: 0;
+    }
+    .bottom-inner.container-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    .call-right-bg{
+        width: 600px;
+    }
+    .footer-left-inner{
+        display: block;
+    }
+    .footer-right-area{
+        margin: 0;
+    }
+    .welcome-area-inner {
+        text-align: center;
+        justify-content: center;
+   }
+   .call-right-bg{
+    margin-left: 0;
+   }
+   .giving-left-inner-main{
+    display: block;
+   }
+   .gray-area-content p{
+    font-size: 18px;
+   }
+   .welcome-area-1{
+    height: 500px;
+   }
+   .bottom-right-bg{
+    width: auto;
+   }
+   .togherter-btn {
+    margin-top: 22px;
+    padding: 13px 38px;
+}
+.filter-form{
+    right: 32px;
+}
+.call-white-area-inner .left-call-area{
+    margin-left: 0;
+}
+.dropdown-menus {
+    left: auto;
+    top: 35px;
+}
+}
+@media(max-width: 414px){
+    .payment-method img {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .menu-item{
+        top: 33.3%;
+    }
+    .left-call-area {
+    margin-bottom: 37px;
+    text-align: center;
+    }
+    .giving-left-area {
+    margin-bottom: 43px;
+}
+.big-feature-inner-left {
+    margin-bottom: 46px;
+}
+.video-featured-area-bg{
+    height: 363px;
+}
+.call-white-area-inner .left-call-area{
+    margin-left: 0;
+    margin-top: 20px;
+}
+.product-meta-title{
+    margin-bottom: 47px;
+}
+.single-box-pairing {
+    margin-bottom: 34px;
+}
+.bough-together-main li:before{
+    display: none;
+}
+.liquid-welcome-area{
+    height: 400px !important;
+}
+section.liquid-welcome-area:after{
+    display: none;
+}
+.dropdown-menus {
+    left: auto;
+    top: 35px;
+    flex-direction: column;
+    padding: 20px;
+}
+.left-inner-drop p{
+    margin-bottom: 24px;
+}
+.middle-inner-dorp h3, .right-inner-drop h3{
+    margin-bottom: 6px;
+}
+ul.drop-inner li {
+    margin: 0;
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 23px;
+    color: #000000;
+}
+.middle-inner-dorp ul{
+    margin-bottom: 8px;
+}
+}
+@media(max-width: 375px){
+    .menu-item{
+        top: 29.5%;
+    }
+
+}
+/*================ End Responsive css code =============*/
